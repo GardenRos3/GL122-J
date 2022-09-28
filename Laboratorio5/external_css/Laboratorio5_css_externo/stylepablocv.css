@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-top{
+    background-color: cadetblue;
+    
+}
+
+body{
+    background-color: darkgray;
+    
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 60px;
+}
+.fotocarnet{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 350px;
+    padding-bottom: 20px;
+}
+
+
+.header-down{
+    background-color: darkorchid;
+}
+#pro-title{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.basic-info {
+    background-color: burlywood;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px
+}
+
+.skills{
+    background-color: darksalmon;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.skills-title{
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+
+.list{
+    background-color: blue;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
