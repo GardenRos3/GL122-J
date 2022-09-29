@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion nav{
+    padding: 20px 0;
+    background-color: #333;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin: 0 5px;
+    padding: 20px 40px ;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+}
+
+.navegacion a:hover{
+    background-color: rgba(245, 245, 245, 0.534);
+    color: black;
+}
+
+.navegacion a:hover:visited{
+    background-color: rgba(245, 245, 245, 0.534);
+    color: black;
+}
+
+.navegacion a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.titulo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info{
+    margin: 0 15%;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.articulo{
+    display: flex;
+    margin: 25px 10%;
+    justify-content: space-around;
+}
+
+.arti1{
+    border: 1px solid black;
+    max-width: 400px;
+    flex: 1;
+    text-align: center;
+}
+
+.arti1 img{
+    
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.arti1 p{
+    margin: 0 8%;
+    margin-bottom: 10px;
+}
+
+.arti1 h2{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.img-alargada div{
+    width: 100%;
+    height: 200px;
+    background-image: url(img.jpg);
+    background-position: right;
+    background-size: cover;
+    opacity: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.img-alargada h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.img-alargada p{
+    padding: 0 20px;
+}
+
+footer{
+    margin-top: 10%;
+    background-color: rgb(148, 148, 148);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    height: 150px;
+    width: 150px;
+    margin: 15px 10px;
+
+}
+
