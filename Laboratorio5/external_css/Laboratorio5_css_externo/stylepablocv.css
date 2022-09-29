@@ -5,84 +5,190 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .header-top{
     background-color: cadetblue;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 body{
     background-color: darkgray;
     
 }
 
+footer{
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlighter {
+   font-weight: bold;
+   font-size: medium;
+}
+
+
 .title {
     font-family: 'Times New Roman', Times, serif;
-    background-color: brown;
-    align-content: center;
-    display: flex;
-    justify-content: center;
     padding-top: 50px;
     font-size: 60px;
 }
-.fotocarnet{
-    background-color: chartreuse;
-    display: flex;
-    justify-content: center;
+
+
+#carnet{
+    height: 300px;
+    width: 290px;
+    margin: 10px;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+
+#pro-title{
+    font-size: 28px;
     padding-top: 20px;
-    height: 350px;
+    padding-left: 28px;
+}
+
+
+#info{
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
 
-.header-down{
-    background-color: darkorchid;
-}
-#pro-title{
-    display: flex;
-    font-size: 28px;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-.basic-info {
-    background-color: burlywood;
-}
-
-#info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 35px
-}
-
-.skills{
-    background-color: darksalmon;
+.skills {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
     align-content: center;
 }
 
 
 .skills-title{
-    background-color: crimson;
-    justify-content: center;
-    align-items: center;
-    padding-left: 100px;
+    width: 40%;
+    
+}
+
+.Row-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.list {
+    font-size: 17px;
+    width: 60%;
+    
+}
+
+.experiences{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.skills-list{
+    margin: 25px 25px 25px 50px;
+}
+
+.exp-title{
+    width: 40%;
+}
+
+.exp-content{
+    width: 60%;
 }
 
 
-.list{
-    background-color: blue;
-    width: auto;
+.first-work{
+    margin: 25px 25px 25px 50px;
+    text-align-last: auto;
+}
+
+
+.education{
+    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+.edu-title{
+    
+    width: 40%;
+    
+}
+
+
+.edu-content{
+   
+    width: 60%;
+    
 }
 
 
 
+.edu-main-content{
+    margin: 25px 25px 25px 50px;
+    
+}
 
 
+.knowledge {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    
+}
 
+.knowledge-title{
+    
+    width: 40%;
+}
 
+.knowledge-content{
+    
+    width: 60%;
 
+}
 
+.knowledge-main-content{
+    margin: 25px 25px 25px 50px;
+}
 
+.relations-title{
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.img-cv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.img{
+    max-width: 100px;
+    max-height: 100px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 40%;
+
+}
+
+#cp {
+    padding-top: 20px;
+    font-size: 15px;
+}
