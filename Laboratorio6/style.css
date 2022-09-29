@@ -33,9 +33,11 @@ li{
     background-color: rgba(245, 245, 245, 0.534);
     color: black;
 }
+
 .navegacion a:hover:visited{
     background-color: rgba(245, 245, 245, 0.534);
     color: black;
+}
 
 .navegacion a:visited{
     text-decoration: none;
@@ -62,7 +64,7 @@ li{
 
 .arti1{
     border: 1px solid black;
-    max-width: 300px;
+    max-width: 400px;
     flex: 1;
     text-align: center;
 }
@@ -76,7 +78,7 @@ li{
 
 .arti1 p{
     margin: 0 8%;
- margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .arti1 h2{
@@ -98,6 +100,10 @@ li{
 .img-alargada h2{
     padding: 10px;
     text-align: center;
+}
+
+.img-alargada p{
+    padding: 0 20px;
 }
 
 footer{
